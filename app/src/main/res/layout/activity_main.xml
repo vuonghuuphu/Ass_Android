@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#CC1D1D"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="UserName" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/ed_description"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Description" />
+
+    <CheckBox
+        android:id="@+id/ck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I have read and agree" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="298dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B1B1B1"
+        android:text="Register" />
+
+
+</LinearLayout>
